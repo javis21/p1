@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+
+    <title>index</title>
+    <style>
+
+        label {
+            text-align: center;
+            position: sticky;
+            margin-left: auto;
+            margin: auto;
+        }
+        progress{
+            position: relative;
+            text-align: right;
+            margin: auto;
+           background-color: black;
+        }
+       
+        *{
+
+            margin: 0px;
+            padding: 0px;
+        }
+        header {
+
+            background-color:darkgrey;
+          color: white;
+          font-size: 35px;
+          text-align: center;
+          position: relative;
+          padding: 10px;
+          font-family: monospace;
+        }
+      footer {
+
+          background-color:darkgrey;
+          color: white;
+          font-size: 20px;
+          text-align: center;
+          position: relative;
+          padding: 10px;
+          font-family: monospace;
+          
+      }
+      nav {
+          
+        background-color:lightgrey;
+          color: white;
+          font-size: 35px;
+          text-align: center;
+          position: relative;
+          padding: 20px;
+          font-family: monospace;
+
+      }
+      .content{
+            text-align: center;
+            margin-top: 30px;
+            font-family: monospace;
+
+      }
+      nav ul li {
+          display: inline-block;
+          padding: 10px;
+
+      }
+      .img{
+
+        float: left;
+  width: 30.33%;
+  padding: 5px;
+  max-width: 100%;
+  
+      }
+      .img1::after{
+        content: "";
+  clear: both;
+  display: table;
+      }
+
+      .button {
+  border: none;
+  color: whitesmoke;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+    </style>
+</head>
+<body>
+    <Header>
+       meshkateducation first project 
+    </Header>
+
+    <nav>
+        
+
+            <nav style="padding: 10px; background-color: darkgrey ; font-size: large; padding: auto;" >
+               
+                <ul>
+                    <li style="margin-right: 100px; text-align: center; position: relative;"><a href="" style="color:springgreen;">HTML</a></li>
+                    <li style="margin-right: 100px; text-align: center; position: relative;"><a href="" style="color:springgreen;">CSS</a></li>
+                    <li style="margin-right: 100px; text-align: center; position: relative;"><a href=""style="color:springgreen;">PHP</a></li>
+                    <li style="margin-right: 100px; text-align: center; position: relative;"><a href=""style="color:springgreen;">Java</a></li>
+                </ul>
+
+            </nav>
+
+
+<div class="content">
+
+    <h1>my name is :  chaouki</h1>
+    <p>my age is  : 33 years old </p>
+    <br>
+    <div class="img1">
+    <div class="img">
+    <img src="images/image1.jpg" alt="photo1" style="width: 300px;">
+</div>
+    <div class="img">
+    <img src="images/image2.jpg" alt="photo2" style="width: 300px;">
+</div>
+    <div class="img">
+    <img src="images/image3.jpg" alt="photo3" style="width: 300px;">
+    
+</div>
+</div>
+<br>
+       
+         <label for="">MY web site </label> <a href="https://www.shutterstock.com/" style="color: springgreen;">shutterstock</a>
+        
+
+         
+       <p>weclome to my website   &#9995; , this is my very first project  for  meshkateducation &#128515;, i m really happy  with studying  for this course and i found it so helpful &#9996;&#9996;. </p>
+       <p>i m exited to whats to come  &#128079; !!</p>
+<br>
+       <hr>
+    <div style="margin-top: 30px;">
+            <div>HTML:<progress value="60" max="100" style="width: 600px;"></progress></div>  
+    <div>CSS :<progress value="50" max="100" style="width: 600px;"></progress></div>  
+    <div>PHP :<progress value="80" max="100" style="width: 600px;"></progress></div>  
+    <div>Java:<progress value="90" max="100" style="width: 600px;"></progress></div>  
+</div>
+
+<br>
+<hr>
+<div class="contact_me" > 
+    <h3>CONTACT ME : </h3>
+<form action="" >
+    <table style="margin-left: auto;    margin-right: auto;">
+        <tr>
+<div>
+    <td>
+<label for="">NAME :</label>
+</td>
+<td>
+<input type="text" required placeholder="enter your name "  >
+</td>
+</div>
+</tr>
+
+<tr>
+    <td>
+    <label for="">Email:</label>
+</td>
+<td>
+    <input type="email" required placeholder="enter your mail "   >
+</td>
+</tr>
+
+    <tr>
+        <td>
+        <label for=""> Tel  :</label>
+    </td>
+        <td>
+        <input type="tel" required placeholder="enter your phone number "  >
+    </td>
+    </tr>
+        <tr>
+            <td>
+            <label for="">Country:</label>
+        </td>
+            <td>
+            <select name="countries" id="">
+            <optgroup label="middle east">
+
+<option value="tunisia">Tunisia</option>
+<option value="Algeria">Algeria</option>
+<option value="Morroco">Morroco</option>
+<option value="libya">libya</option>
+            </optgroup>
+
+            <optgroup label="Gulf countries">
+<option value="Saudi Arabia">Saudi Arabia</option>
+<option value="Oman">Oman</option>
+<option value="Qatar">Qatar</option>
+</optgroup>
+</select>   
+</td>
+</tr>
+    
+
+        <tr>
+            <td></td>
+            <td>
+                <button class="button" style="background-color: #008CBA;" >Send</button>
+        </td>
+        </tr>
+            
+        </table>
+</form>
+
+
+
+</div>
+
+
+    </div>
+    </nav>
+
+
+<footer>all Right Reserved - 2021</footer>
+</body>
+
+</html>
